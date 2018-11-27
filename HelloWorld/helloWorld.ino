@@ -3,7 +3,6 @@
 #include "ESP.h"
 #include "ESP8266WiFi.h"
 
-
 void setup() {
   // initialize digital pin 13 as an output.
   pinMode(2, OUTPUT);
