@@ -3,12 +3,23 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/**",
+                "C:/Program Files (x86)/Arduino/tools/**",
                 "C:\\Users\\Tim\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
                 "C:\\Users\\Tim\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.2\\**",
                 "C:\\Users\\Tim\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.2\\cores\\esp8266\\**",
-                "C:/Users/Tim/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.2/libraries/ESP8266WiFi/src"
+                "C:/Users/Tim/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.2/libraries/ESP8266WiFi/src",
+                "${workspaceFolder}/libraries/ArduinoJson",
+                "${workspaceFolder}/libraries/**",
+                "C:/Users/Tim/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.2/libraries/SoftwareSerial",
+                "${workspaceFolder}/libraries/ESPAsyncTCP",
+                "${workspaceFolder}/libraries/Painless_Mesh",
+                "${workspaceFolder}/libraries/TaskScheduler"
             ],
-            "forcedInclude": []
+            "forcedInclude": [],
+            "defines": [
+                "ARDUINO=100"
+            ]
         }
     ],
     "version": 4
